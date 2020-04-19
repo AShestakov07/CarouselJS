@@ -1,0 +1,67 @@
+import React, { Component } from 'react'
+import Carousel from "react-bootstrap/Carousel";
+import img01 from "../assets/IMG_9660.JPG"
+import img02 from "../assets/IMG_0537.JPG"
+import img03 from "../assets/IMG_3038.JPG"
+import img04 from "../assets/IMG_6607.JPG"
+
+export default class CarouselBox extends Component {
+    render() {
+        return (
+
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={ img01 }
+                        alt="First Img"
+                    />
+                    <Carousel.Caption>
+                        <h3>Erpaw</h3>
+                        <p>aaasda</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={ img02 }
+                        alt="First Img"
+                    />
+                    <Carousel.Caption>
+                        <h3>Erpaw</h3>
+                        <p>aaasda</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={ img03 }
+                        alt="First Img"
+                    />
+                    <Carousel.Caption>
+                        <h3>Erpaw</h3>
+                        <p>aaasda</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={ img04 }
+                        alt="First Img"
+                    />
+                    <Carousel.Caption>
+                        <h3>Erpaw</h3>
+                        <p>aaasda</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+
+            </Carousel>
+
+
+        )
+    }
+}
